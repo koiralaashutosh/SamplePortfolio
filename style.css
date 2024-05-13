@@ -1,0 +1,85 @@
+body{
+    background-image: url("./assests/image.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: "Roboto";
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.links{
+    display:flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo{
+    color: rgb(187,40,187);
+    font-size: 14px;
+
+}
+
+.btn{
+    background-color: purple;
+    padding: 4px;
+    font-size: 8px;
+    border-radius: 4px;
+}
+.hero{ 
+    display: flex;
+    justify-content: space-between;
+    margin-right:15vw;
+    margin-left: 9vw;
+    align-items: center;
+    margin-top: 32px;
+    font-size: 18px;
+}
+.name{
+    color: rgb(187,40,187);
+    font-weight: bold;
+}
+.details{
+    color: rgb(187,40,187);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+img{
+    height: 150px;
+    object-fit: contain;
+    width: 150px;
+    margin-top: 15px;
+}
+.white{
+    color: white;
+}
+
+.name2{
+    color: rgb(78, 29, 78);
+    font-weight: bold;
+}
+.secondhero{ 
+    display: flex;
+    gap: 30px;
+    border: 1px solid white;
+    padding: 15px;
+    justify-content: space-between;
+    margin-right:15vw;
+    margin-left: 8vw;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 18px;
+    background-color: #EEF1EF;
+    color:black;
+    border-radius: 1rem;
+}
+
+.testing{
+    color: rgb(101, 86, 68);
+}
